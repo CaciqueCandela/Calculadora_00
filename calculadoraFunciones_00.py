@@ -53,7 +53,7 @@ def run():
     '''Cantidad que resulta de la multiplicación de determinado número natural por
     todos los números naturales que le anteceden excluyendo el cero; se representa por n!)'''
 
-    def Factorial():
+    def factorial():
         mi_factorial = int(input('\nPor favor, introduzca el número del que quiere calcular el factorial: '))
         print('El factorial de', str(mi_factorial), 'es:', str(factorialCalculo(mi_factorial)))
 
@@ -67,7 +67,7 @@ def run():
 # Calcular la potencia:
 # Resultado de multiplicar un número por sí mismo una o varias veces.
 
-    def Potencia():
+    def potencia():
         base = int(input('Por favor, ingrese la base de la potencia: '))
         exponente = int(input('Por favor, ingrese el exponente de la potencia: '))
         print('\nEl valor de ' + str(base) + ' elevado a ' + str(exponente) + ' es: ' + str(potenciaCalculo(base, exponente)))
@@ -120,9 +120,9 @@ def run():
             elif (opcion == 4):
                 division()
             elif (opcion == 5):
-                Factorial()
+                factorial()
             elif (opcion == 6):
-                Potencia()
+                potencia()
             elif (opcion == 7):
                 raiz_cuadrada()  
             elif (opcion == 8):
