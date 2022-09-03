@@ -10,6 +10,10 @@ Ejercicio: realizar una calculadora que permita las siguientes funciones:
 > Calcular la potencia de un número.
 '''
 
+
+print('Prototipo de calculadora con operaciones básicas')
+print()
+
 # Primero se deben definir las operaciones mediante funciones.
 
 def run():
