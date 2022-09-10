@@ -14,6 +14,8 @@ Ejercicio: realizar una calculadora que permita las siguientes funciones:
 print('Prototipo de calculadora con operaciones básicas')
 print()
 
+print('Esta calculadora está hecha en Python mediante funciones')
+
 # Primero se deben definir las operaciones mediante funciones.
 
 def run():
