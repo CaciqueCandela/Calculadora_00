@@ -1,7 +1,7 @@
-# CALCULADORA UTILIZANDO FUNCIONES
+# CALCULADORA UTILIZANDO FUNCIONES LAMBDA
 
 '''
-Ejercicio: realizar una calculadora que permita las siguientes funciones:
+Ejercicio: realizar una calculadora que permita las siguientes operaciones:
 > Sumar dos números.
 > Restar dos números.
 > Multiplicar dos números.
@@ -11,48 +11,29 @@ Ejercicio: realizar una calculadora que permita las siguientes funciones:
 '''
 
 
-print('Prototipo de calculadora con operaciones básicas')
+print("\nCALCULADORA DE OPERACIONES BÁSICAS UTILIZANDO DOS VALORES MEDIANTE FUNCIONES LAMBDAS")
 print()
 
-print('Esta calculadora está hecha en Python mediante funciones')
-
-# Primero se deben definir las operaciones mediante funciones.
+# Primero se deben definir las operaciones mediante funciones Lambda.
 
 def run():
 
-# Función para suma:
+# Calcular suma:
 
-    from re import X
+    suma = lambda numero1, numero2: numero1 + numero2
 
+# Calcular resta:
 
-    def suma():
-        numero1 = int(input('Por favor, ingrese el sumando uno: '))
-        numero2 = int(input('Por favor, ingrese el sumando dos: '))
-        print('La suma de ', numero1, '+', numero2, 'es', numero1+numero2)
+    resta = lambda numero1, numero2: numero1 - numero2
 
-# Función para resta:
+# Calcular el multiplicación:
 
-    def resta():
-        numero1 = int(input('Por favor, ingrese el minuendo: '))
-        numero2 = int(input('Por favor, ingrese el sustraendo: '))
-        print('La diferencia de ', numero1, '-', numero2, 'es', numero1-numero2)
+    multiplicacion = lambda numero1, numero2: numero1 * numero2
 
-# Función para multiplicación:
+# Calcular división:
 
-    def multiplicacion():
-        numero1 = int(input('Por favor, ingrese el multiplicando: '))
-        numero2 = int(input('Por favor, ingrese el multiplicador: '))
-        print('El producto de ', numero1, '*', numero2, '=', numero1*numero2)
+    division = lambda numero1, numero2: numero1 / numero2
 
-# Función para división:
-
-    def division():
-        try:
-            numero1 = int(input('Por favor, ingrese el dividendo: '))
-            numero2 = int(input('Por favor, ingrese el divisor: '))
-            print('El cociente de ', numero1, '/', numero2, '=', numero1/numero2)
-        except ZeroDivisionError:
-            print('ERROR: no se puede dividir por cero')
 
     
 # Calcular el factorial: 
